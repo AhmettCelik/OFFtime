@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,700;0,800;1,100;1,400;1,500;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #820300;
+}
+
+header {
+  background-color: #b80000;
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+header nav ul,
+li,
+button,
+a {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.nav__links li:first-child a,
+.nav__links li:last-child a {
+  transition: all 0.2s ease 0s;
+  padding: 10px 20px;
+  font-weight: 700;
+}
+
+.nav__links li:first-child a:hover,
+.nav__links li:last-child a:hover {
+  color: #820300;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+header button {
+  border-radius: 20px;
+  border: 0;
+  background-color: #fff;
+  transition: all 0.5s ease 0s;
+}
+
+.forum {
+  display: inline-block;
+  padding: 8px 20px;
+  color: #b80000;
+  transition: all 0.5s ease 0s;
+}
+
+header button:hover {
+  background-color: #ca0000;
+  border-radius: 0;
+}
+
+.forum:hover {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
