@@ -1,0 +1,23 @@
+.a-button-red {
+  background-color: #a80000;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.a-button-red:hover {
+  background-color: #910000;
+}
+
+.a-button-white {
+  background-color: #fff;
+  color: #a80000;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.a-button-white:hover {
+  color: #d10000;
+}
